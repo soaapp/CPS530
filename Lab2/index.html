@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Lab #2
+    Sara Jay Jahanzad
+    500 748 291
+-->
+
+<head>
+
+    <style>
+        .blue-text {
+            color: #4A4AE7;
+        }
+
+        h1.intro {
+            font-size: 40;
+            font-family: Operator Mono Book Italic;
+            text-align: center;
+        }
+
+        h2.center-align {
+            color: #676F96;
+            text-align: center;
+        }
+
+        li {
+            color: cornflowerblue;
+        }
+
+        .smaller-image {
+            width: 50%
+        }
+
+        .thin-blue-border {
+            border-color: rgb(45, 106, 240);
+            border-width: 4px;
+            border-style: solid;
+            border-radius: 100%;
+        }
+
+        .larger-text {
+            font-size: 30
+        }
+    </style>
+
+    <title>CPS 530 Lab #2</title>
+</head>
+
+<body>
+    <script>
+        var password;
+        var pass1 = "cps530";
+        password = prompt('Enter Password To View Page (cps530)', ' ');
+        if (password == pass1)
+            alert('Correct password!');
+        else {
+            window.location = "";
+        }
+    </script>
+
+    <section>
+        <div style="text-align: center" id="background1">
+
+            <h1 class="blue-text" style="font-size:40px">Sara Jay Jahanzad</h1>
+
+            <h2>Student #: 500748291</h2>
+
+            <a href="#">
+                <img class="thin-blue-border" width=300 height=320 alt="A retro apple logo" src="https://i.imgur.com/ghH0BW6.jpg">
+            </a>
+        </div>
+    </section>
+
+    <p style="font-size: 36px">Fun facts about me:</p>
+    <ol style="font-size: 33px">
+        <li>I skateboard</li>
+        <li>I am a sabre fencer</li>
+        <li>My birthday is on Halloween</li>
+    </ol>
+
+
+
+    <table border="1">
+        <tr>
+            <th colspan="3">
+                <br>iPhone Comparison
+            </th>
+        </tr>
+        <tr>
+            <th>iPhone X</th>
+            <th>iPhone 8+</th>
+            <th>iPhone 7+</th>
+        </tr>
+        <tr>
+            <td colspan="2">Splash/Dust resistant</td>
+            <td>Splash resistant</td>
+        </tr>
+    </table>
+
+
+
+    <h3>Lab #2 Technical Report</h3>
+    <ol>
+        <li>What is your element CSS class?
+            <p>
+                An element CSS class I created was the border for my image, the blue text style as well for my ordered lists.
+            </p>
+        </li>
+        <li>What is your global CSS class?
+            <p>
+                I have a couple global CSS classes for my h1 and h2.
+            </p>
+        </li>
+        <li>What are your HTML5-only tags?
+            <p>
+                The two HTML5 only tags I utilized are the
+                <mark>section</mark> and
+                <mark>mark</mark> elements.
+            </p>
+        </li>
+        <li>What are your CSS3-only features?
+            <p>
+                CSS3 Rounded Borders tag which is now able to resize and and colour itself around an image. The CSS3 section tag which like
+                divs can create a noticable separation in parts of your website.
+            </p>
+        </li>
+        <li>Did you use the same protection method? If no, what did you use this time?
+            <p>
+                I did use the same protection method as my Lab 1 which was the Java Script password protection.
+            </p>
+        </li>
+        <li>How long did you spend on this lab (approximately)
+            <p>
+                I spent less than two hours on this lab.
+            </p>
+        </li>
+    </ol>
+
+    <form target="_blank" action="https://i.imgur.com/eZhokAg.png">
+        <input type="submit" value="Go to Verification Report" />
+    </form>
+
+</body>
+
+</html>
