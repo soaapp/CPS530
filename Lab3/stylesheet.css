@@ -1,0 +1,131 @@
+.main-menu{
+    font-family: verdana,arial,helvetica;
+    color: #336699;
+    font-size: 11pt;
+}
+.side-menu{
+    font-family: Verdana,Arial,Helvetica,Sans Serif; 
+    font-size:11px; 
+    color:#003366; 
+    background-color:#ddeeff; 
+    font-weight: plain;
+    text-align:center;
+    height: 100%;
+}
+
+section {
+    margin: auto;
+    padding: 10px;
+}
+div#one {
+    width: 10%;
+    float: left;
+}
+div#two {
+    margin-left: 15%;
+}
+
+
+.menu-button{
+    margin: 1px;
+}
+
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 92px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+
+&.retroshadow {
+    color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+HTML, BODY {
+    height: 100%;
+    }
+  
+  $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
+  
+  BODY {
+    background: hsl(200,70,11);
+    background-size: .12em 100%;
+    font: 16em/1 Arial;
+  }
+  
+  .text--line {
+    font-size: .5em;
+    }
+  
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+  
+  $max: 5;
+  $stroke-step: 7%; 
+  .text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+    stroke-width: 3px;
+    
+    animation: stroke-offset 9s infinite linear;
+    
+    @for $item from 1 through $max {
+      $stroke-color: nth($colors, $item);
+      
+      &:nth-child(#{$item}) {
+        stroke: $stroke-color;
+        stroke-dashoffset: $stroke-step * $item;
+        }
+      }
+    }
+  
+  @keyframes stroke-offset {
+    50% {
+      stroke-dashoffset: $stroke-step * $max;  
+      stroke-dasharray: 0 $stroke-step * $max*2.5;
+    }
+  }
+
+  body > div
+  {
+      
+      margin:121px 149px;
+      
+      width:483px;
+      height:298px;
+      
+      background:#676470;
+      color:#fff;
+      
+      font-family:Lato;
+      font-weight:900;
+      font-size:3.4em;
+      
+      text-align:center;
+      line-height:298px;
+      
+      transition:all 0.3s ease;
+      
+  }
+  
+  .grow:hover
+  {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+  
+  
+  
