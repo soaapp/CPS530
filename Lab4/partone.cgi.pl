@@ -17,6 +17,6 @@ print "<body>\n";
 	my $year = param ('year');
 	my $location = param ('location');
 
-	print "$first $last, you are in year $year, and your home town is $location\n";
+	print "$first $last, you are in year $year, and your home town is $location \n";
 	print "By: Sara J. Jahanzad - 500 748 291\n";
 print "</body>\n";

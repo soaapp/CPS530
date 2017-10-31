@@ -11,3 +11,10 @@ background1{
     background-color:#163e66; 
 }
 
+body{
+        text-align: center;
+        color: #0060c0 ;
+        font-size: 40px;
+        font-family: Roboto Condensed
+}
+
