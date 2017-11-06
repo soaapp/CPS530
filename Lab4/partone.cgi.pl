@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 use CGI':standard';
 use strict;
-use warnings;
 
 print "Content-type: text/html\n\n";
 
